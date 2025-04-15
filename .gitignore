@@ -1,0 +1,54 @@
+# Файлы сборки и выполнения
+**/[Bb]in/
+**/[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.suo
+*.user
+*.userprefs
+
+# Файлы IDE и редакторов
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+*.swp
+*~
+
+# Файлы зависимостей
+**/packages/
+.nuget/
+NuGet.exe
+NuGet.Config
+project.lock.json
+
+# Файлы окружения и настроек
+appsettings.json
+!.appsettings.template.json
+.env
+*.env.local
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+[Tt]humbs.db
+
+# Файлы приложения
+WeatherLogs/
+weather_cache.json
+api_key_log.txt
+
+# Временные файлы
+temp/
+tmp/
+*.bak
+*.tmp
+*.log
+.log.
+
+# Исключения (важные файлы)
+!/.gitkeep
+!/README.md
+!**/LICENSE
